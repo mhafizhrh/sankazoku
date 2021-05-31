@@ -5,8 +5,8 @@ date_default_timezone_set('Asia/Jakarta');
 class Order_Model extends CI_Model {
 
 	public $api_url 	= 'https://api.irvankede-smm.co.id/api/';
-	public $api_key 	= '4437b5-ee9918-bc7f48-104c69-7fd48f';
-	public $api_id	 	= '8363';
+	public $api_key 	= '';
+	public $api_id	 	= '';
 
 	public function __construct() {
 
